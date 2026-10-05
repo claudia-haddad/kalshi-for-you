@@ -37,6 +37,9 @@ dialog[data-page=&quot;quiz&quot;] .sheet-inner{padding-bottom:24px}dialog[data-
 /* Category selections update the market list immediately below the grid. */
 .category-markets{margin-top:16px}.category-markets .event-outcome{margin-left:0}.category-markets .event-card:last-child{margin-bottom:0}.browse-section .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
+/* Education sits between the first market rail and category browsing. */
+.variant-two .first-trade-section&gt;.welcome-section{margin:24px 0 0;padding:20px 0;border-top:1px solid #ededed;border-bottom:1px solid #ededed}
+
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -61,14 +64,14 @@ dialog[data-page=&quot;quiz&quot;] .sheet-inner{padding-bottom:24px}dialog[data-
   &lt;div id=&quot;stickyDeposit&quot; class=&quot;sticky-deposit&quot;&gt;&lt;span&gt;Finish setting up your account&lt;/span&gt;&lt;button data-action=&quot;deposit&quot;&gt;Complete deposit&lt;/button&gt;&lt;/div&gt;
  &lt;/header&gt;
  &lt;main class=&quot;content variant-two&quot;&gt;
-  &lt;section class=&quot;welcome-section&quot; aria-labelledby=&quot;welcomeTitle&quot;&gt;
-   &lt;div class=&quot;education-header row between&quot;&gt;&lt;h2 id=&quot;welcomeTitle&quot;&gt;Learn the basics&lt;/h2&gt;&lt;div class=&quot;education-controls&quot;&gt;&lt;button class=&quot;icon-btn&quot; id=&quot;educationPrevious&quot; data-action=&quot;educationPrevious&quot; aria-label=&quot;Previous education module&quot;&gt;‹&lt;/button&gt;&lt;button class=&quot;icon-btn&quot; id=&quot;educationNext&quot; data-action=&quot;educationNext&quot; aria-label=&quot;Next education module&quot;&gt;›&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;
-   &lt;div id=&quot;educationIntro&quot;&gt;&lt;/div&gt;
-  &lt;/section&gt;
   &lt;section class=&quot;first-trade-section&quot; aria-labelledby=&quot;firstTradeTitle&quot;&gt;
    &lt;h2 class=&quot;chapter-heading&quot; id=&quot;firstTradeTitle&quot;&gt;Make your first trade&lt;/h2&gt;
    &lt;section class=&quot;deposit deposit-v2&quot; id=&quot;depositCard&quot; aria-label=&quot;Complete your deposit&quot;&gt;&lt;/section&gt;
    &lt;section class=&quot;trending&quot; id=&quot;trending&quot; aria-label=&quot;Markets to explore&quot;&gt;&lt;div class=&quot;today-markets&quot; id=&quot;topMarkets&quot; aria-label=&quot;Markets, swipe to explore&quot;&gt;&lt;/div&gt;&lt;/section&gt;
+  &lt;section class=&quot;welcome-section&quot; aria-labelledby=&quot;welcomeTitle&quot;&gt;
+   &lt;div class=&quot;education-header row between&quot;&gt;&lt;h2 id=&quot;welcomeTitle&quot;&gt;Learn the basics&lt;/h2&gt;&lt;div class=&quot;education-controls&quot;&gt;&lt;button class=&quot;icon-btn&quot; id=&quot;educationPrevious&quot; data-action=&quot;educationPrevious&quot; aria-label=&quot;Previous education module&quot;&gt;‹&lt;/button&gt;&lt;button class=&quot;icon-btn&quot; id=&quot;educationNext&quot; data-action=&quot;educationNext&quot; aria-label=&quot;Next education module&quot;&gt;›&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;
+   &lt;div id=&quot;educationIntro&quot;&gt;&lt;/div&gt;
+  &lt;/section&gt;
    &lt;section class=&quot;browse-section&quot; aria-labelledby=&quot;browseTitle&quot;&gt;&lt;h3 id=&quot;browseTitle&quot;&gt;Categories to browse&lt;/h3&gt;&lt;div class=&quot;categories category-grid&quot; id=&quot;categories&quot;&gt;&lt;/div&gt;&lt;p class=&quot;sr-only&quot; id=&quot;categoryFeedback&quot; aria-live=&quot;polite&quot;&gt;&lt;/p&gt;&lt;div class=&quot;category-markets&quot; id=&quot;categoryMarkets&quot; aria-label=&quot;Markets for selected category&quot;&gt;&lt;/div&gt;&lt;/section&gt;
   &lt;/section&gt;
   &lt;section class=&quot;traders&quot; id=&quot;tradersSection&quot; aria-labelledby=&quot;tradersTitle&quot;&gt;&lt;div class=&quot;section-head row between&quot;&gt;&lt;div&gt;&lt;h2 class=&quot;chapter-heading&quot; id=&quot;tradersTitle&quot;&gt;Find traders to follow&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;button class=&quot;icon-btn&quot; data-action=&quot;traders&quot; aria-label=&quot;See all traders&quot;&gt;&lt;span data-icon=&quot;arrow_right&quot;&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;trader-list&quot; id=&quot;traderList&quot;&gt;&lt;/div&gt;&lt;p class=&quot;mock-note&quot;&gt;Concept profiles · Identity and activity cues are mocked.&lt;/p&gt;&lt;/section&gt;
